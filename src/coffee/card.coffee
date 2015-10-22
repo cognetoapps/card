@@ -49,10 +49,10 @@ class Card
   defaults:
     formatting: true
     formSelectors:
-      numberInput: 'input[name="number"]'
-      expiryInput: 'input[name="expiry"]'
-      cvcInput: 'input[name="cvc"]'
-      nameInput: 'input[name="name"]'
+      numberInput: '.js_cc_number'
+      expiryInput: '.js_expiry_date'
+      cvcInput: '.js_cvv_number'
+      nameInput: '.js_cardholder_name'
     cardSelectors:
       cardContainer: '.jp-card-container'
       card: '.jp-card'
